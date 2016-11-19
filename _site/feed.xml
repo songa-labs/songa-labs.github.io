@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2016-11-17T14:57:06+03:00</updated><id>http://localhost:4000/</id><title type="html">SONGA</title><subtitle>Innovation on the move.
+</subtitle><entry><title type="html">Welcome to Songa Labs</title><link href="http://localhost:4000/release/songa/recent/featured/2016/11/16/welcome.html" rel="alternate" type="text/html" title="Welcome to Songa Labs" /><published>2016-11-16T20:39:00+03:00</published><updated>2016-11-16T20:39:00+03:00</updated><id>http://localhost:4000/release/songa/recent/featured/2016/11/16/welcome</id><content type="html" xml:base="http://localhost:4000/release/songa/recent/featured/2016/11/16/welcome.html">&lt;p&gt;&lt;span&gt;&lt;img src=&quot;http://localhost:4000/assets/img/post01.png&quot; alt=&quot;Yeah&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Well wassup.&lt;/p&gt;
+
+&lt;p&gt;Did it work?&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Yes&lt;/p&gt;</content><author><name>&lt;a href=&quot;https://nkoroi.github.io&quot;&gt;&lt;csmall2&gt;Nkoroi&lt;/csmall2&gt;&lt;/a&gt;</name></author><category term="first" /><category term="post" /><category term="blog" /><category term="ruby" /><category term="github" /><category term="jekyll" /><summary type="html">Well wassup.
+
+Did it work?</summary></entry></feed>

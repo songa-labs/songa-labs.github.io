@@ -1,0 +1,21 @@
+---
+layout: post             
+title:  "Welcome to Songa Labs"
+date:   2016-11-16 20:39
+categories: release songa recent featured
+author: <a href="https://nkoroi.github.io"><csmall2>Nkoroi</csmall2></a>
+excerpt_separator: <!--more-->
+thumb: <img src="/assets/img/thumb01.png" alt="Popular Post">
+fimage: <span><img src= "/assets/img/post01.png"></span>
+tags: first post blog ruby github jekyll 
+---
+<span>![Yeah]({{ site.url }}/assets/img/post01.png)</span>
+
+<hr/>
+Well wassup.
+
+Did it work?
+
+<!--more-->
+
+Yes

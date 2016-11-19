@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<html lang="en">
+  <head>
+  {% include blog-head.html %}
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    {% include blog-nav.html %}
+
+	<!-- *****************************************************************************************************************
+	 BLUE WRAP
+	 ***************************************************************************************************************** -->
+	<div id="blue">
+	    <div class="container">
+			<div class="row">
+				<h3>Blog.</h3>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /blue -->
+ <div class="container">
+			<div class="row">
+{{content}}
+</div>
+</div>
+{% include blog-footer.html %}
+{% include blog-javascript.html %}
+  </body>
+</html>

@@ -1,0 +1,31 @@
+---
+layout: search
+title: Search
+---
+<div class="container">
+	<div class="row">
+		<form action="/search.html" method="get">
+		  <input type="text" id="search-box" name="query" class="form-control" placeholder="Search something">
+		  <input type="submit" value="search" class="btn btn-theme">
+		</form>
+		
+		<ul id="search-results"></ul>
+		
+		<script>
+		  window.store = {
+		    {% for post in site.posts %}
+		      "{{ post.url | slugify }}": {
+		        "title": "{{ post.title | xml_escape }}",
+		        "author": "{{ post.author | xml_escape }}",
+		        "category": "{{ post.category | xml_escape }}",
+		        "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+		        "url": "{{ post.url | xml_escape }}"
+		      }
+		      {% unless forloop.last %},{% endunless %}
+		    {% endfor %}
+		  };
+		</script>
+		<script src="/js/lunr.js"></script>
+		<script src="/js/search.js"></script>
+	</div>
+</div>

@@ -1,0 +1,161 @@
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Songa Search">
+    <meta name="author" content="Kiraithe Nkoroi">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+
+    <title>Songa - Search</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/general.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script src="/assets/js/modernizr.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+<div style="max-width:20%;">
+    <img src="/logo-512-bg.png" />
+</div>
+          <a href="/" class="navbar-brand" >SONGA LABS</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+                    <ul class="nav navbar-nav">
+            <li><a href="/">HOME</a></li>
+            <li><a href="/footerwrap">CONTACT</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- *****************************************************************************************************************
+	 BLUE WRAP
+	 ***************************************************************************************************************** -->
+	<div id="blue">
+	    <div class="container">
+			<div class="row">
+				<h3>Search</h3>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /blue -->
+
+<div class="container">
+	<div class="row">
+		<form action="/search.html" method="get">
+		  <input type="text" id="search-box" name="query" class="form-control" placeholder="Search something">
+		  <input type="submit" value="search" class="btn btn-theme">
+		</form>
+		
+		<ul id="search-results"></ul>
+		
+		<script>
+		  window.store = {
+		    
+		      "release-songa-recent-featured-2016-11-16-welcome-html": {
+		        "title": "Welcome to Songa Labs",
+		        "author": "&lt;a href=&quot;https://nkoroi.github.io&quot;&gt;&lt;csmall2&gt;Nkoroi&lt;/csmall2&gt;&lt;/a&gt;",
+		        "category": "",
+		        "content": "Well wassup.Did it work?Yes",
+		        "url": "/release/songa/recent/featured/2016/11/16/welcome.html"
+		      }
+		      
+		    
+		  };
+		</script>
+		<script src="/js/lunr.js"></script>
+		<script src="/js/search.js"></script>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<h3>Recent Posts</h3>
+		<div class="hline"></div>
+		<div class="spacing"></div>
+		
+		    <div class="col-lg-4">
+		      <a href="/release/songa/recent/featured/2016/11/16/welcome.html"><span><img src= "/assets/img/post01.png"></span></a><a href="/release/songa/recent/featured/2016/11/16/welcome.html"><h3 class="ctitle">Welcome to Songa Labs</h3></a> <csmall>Posted 2016-11-16 20:39:00 +0300</csmall> <csmall2> By: <a href="https://nkoroi.github.io"><csmall2>Nkoroi</csmall2></a></csmall2>
+		    </div>
+		  
+		
+	</div>
+</div>
+<div class="spacing"></div>
+<!-- *****************************************************************************************************************
+	 FOOTER
+	 ***************************************************************************************************************** -->
+	 <div id="footerwrap">
+	 	<div class="container">
+		 	<div class="row">
+		 		<div class="col-lg-4">
+		 			<h4>About</h4>
+		 			<div class="hline-w"></div>
+		 			<p>This is the Official Songa blog. All updates will be officially announced from here.<br/>
+					 ©2016 <a href="https://songa-labs.github.io">Songa Labs</a></p>
+		 		</div>
+		 		<div class="col-lg-4">
+		 			<h4>Social Links</h4>
+		 			<div class="hline-w"></div>
+		 			<p>
+		 				<a href="https://twitter.com/songa_labs"><i class="fa fa-twitter"></i></a>
+		 				<a href="https://github.com/songa-labs"><i class="fa fa-github"></i></a>
+		 			</p>
+		 		</div>
+		 		<div class="col-lg-4">
+		 			<h4>HQ</h4>
+		 			<div class="hline-w"></div>
+		 			<p>
+		 				Nairobi, Kenya<br/>
+		 				+254-729834488<br/>
+		 			</p>
+		 		</div>
+		 	
+		 	</div><! --/row -->
+	 	</div><! --/container -->
+	 </div><! --/footerwrap -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/retina-1.1.0.js"></script>
+	<script src="/assets/js/jquery.hoverdir.js"></script>
+	<script src="/assets/js/jquery.hoverex.min.js"></script>
+	<script src="/assets/js/jquery.prettyPhoto.js"></script>
+  	<script src="/assets/js/jquery.isotope.min.js"></script>
+  	<script src="/assets/js/custom.js"></script>
+
+
+  </body>
+</html>
+
